@@ -1,1 +1,1 @@
-This is movies website it has 2 html pages styled by css file and work with javascribt function
+This is movies website it has 2 html pages (Muvies & Adults) styled by css file and work with javascribt function
