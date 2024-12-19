@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>MUvies | Home</title>
+</head>
+
+<body>
+    <script src="script.js"></script>
+    <header>
+        <a href="MUvies.html" class="logo">MUvies</a>
+        <ul class="nav">
+            <li>
+                <a href="MUvies.html"><i class="fa fa-home" aria-hidden="true"></i></a>
+            </li>
+            <li><a href="Adults.html">Adults</a></li>
+            <li><a href="#">Kids</a></li>
+            <li><a href="#">Trend</a></li>
+            <li><a href="#">My List</a></li>
+        </ul>
+        <div class="search">
+            <input type="text" placeholder="Search" />
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+    </header>
+    <div class="banner">
+        <div class="content active">
+            <img src="Bait El Ruby Logo.png" alt="Movie Logo" id="movie-logo" />
+            <h4 id="details">
+                <span id="movie-year">2023</span>
+                <span id="movie-rating"><i>12+</i></span>
+                <span id="movie-duration">1h41min</span>
+                <span id="movie-genre">Comedy/Drama</span>
+            </h4>
+            <p id="movie-description">
+                يتناول العمل قصة المهندس إبراهيم الروبي الذي تتعرض زوجته لأزمة ضخمة
+                يلجأ بعدها للهروب من المدينة والابتعاد إلى مكان منعزل، ويعيش لسنوات
+                ولكنه يعود مجددا بسبب ظروف طارئة على حياته، مما يجعله يتعرض لكثير من
+                المواقف الصعبة التي تغير مسارات حياته ويعود شبح الأزمة القديمة
+                لمطاردته وزوجته.
+            </p>
+            <div class="button">
+                <a href="#"><i class="fa fa-play" aria-hidden="true"></i>Watch</a>
+                <a href="#"><i class="fa fa-plus" aria-hidden="true"></i>My list </a>
+            </div>
+        </div>
+        <div class="carousel-box">
+            <div class="carousel">
+                <div class="carousel-item">
+                    <img src="بيت الروبي.jpg" alt="" />
+                </div>
+                <div class="carousel-item">
+                    <img src="السرب.jpg" alt="" />
+                </div>
+                <div class="carousel-item">
+                    <img src="الحريفة.jpg" alt="" />
+                </div>
+                <div class="carousel-item">
+                    <img src="من أجل زيكو.jpg" alt="" />
+                </div>
+                <div class="carousel-item">
+                    <img src="الهوى سلطان.jpg" alt="" />
+                </div>
+            </div>
+        </div>
+        <a href="#" class="play"><i class="fa fa-play-circle" aria-hidden="true"> </i>Watch Trailer</a>
+        <ul class="sci">
+            <li>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            </li>
+            <li>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </li>
+            <li>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+        </ul>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".carousel").carousel();
+        });
+    </script>
+</body>
+
+</html>
+
